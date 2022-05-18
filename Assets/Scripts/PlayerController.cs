@@ -1,7 +1,10 @@
 using UnityEngine;
+using Zinnia.Action;
 
 public class PlayerController : MonoBehaviour
 {
+    public Vector2Action moveInput;
+
     public Rigidbody player;
     public float forceMultiplier = 10f;
 
@@ -10,13 +13,8 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 moveDirection = Vector3.zero;
 
-        float horizontalInput = Input.GetAxis("Horizontal");
-        moveDirection += new Vector3(horizontalInput, 0f, 0f);
-
-        float verticalInput = Input.GetAxis("Vertical");
-        moveDirection += new Vector3(0f, 0f, verticalInput);
-        
-        // Vector3 moveDelta = moveDirection * speed * Time.deltaTime;
+        moveDirection += new Vector3(moveInput.Value.x, 0f, 0f);
+        moveDirection += new Vector3(0f, 0f, moveInput.Value.y);
 
         Vector3 movingForce = moveDirection * forceMultiplier;
         
