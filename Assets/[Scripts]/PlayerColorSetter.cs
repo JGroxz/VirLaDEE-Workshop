@@ -24,7 +24,7 @@ public class PlayerColorSetter : NetworkBehaviour
 
     private void Start()
     {
-        generatedColor = GetRandomColor();
+        // generatedColor = GetRandomColor();
         if (IsLocalPlayer) RequestSetColor(generatedColor);
     }
     
@@ -39,10 +39,10 @@ public class PlayerColorSetter : NetworkBehaviour
     private void AcceptSetColor(Color color)
     {
         generatedColor = color;
-        UpdateMaterialColor();
+        UpdateMaterialColor(generatedColor);
     }
 
-    private void UpdateMaterialColor()
+    private void UpdateMaterialColor(Color color)
     {
         renderer.material.color = generatedColor;
     }
