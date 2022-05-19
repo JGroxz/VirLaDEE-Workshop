@@ -1,17 +1,34 @@
 {
   "scopedRegistries": [
-   {
-     "name": "npmjs",
-     "url": "https://registry.npmjs.org/",
-     "scopes": [
-       "io.extendreality"
-     ]
-   }
+    {
+      "name": "IVAR Lab Registry",
+      "url": "http://193.40.245.61:4242",
+      "scopes": [
+        "ee.taltech",
+        "games.nosoysauce",
+        "com.darrentsung",
+        "com.jsteinhauer"
+      ]
+    },
+    {
+      "name": "npmjs",
+      "url": "https://registry.npmjs.org/",
+      "scopes": [
+        "io.extendreality"
+      ]
+    },
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.cysharp.unitask",
+        "com.openupm",
+        "com.miragenet"
+      ]
+    }
   ],
   "dependencies": {
-    "io.extendreality.zinnia.unity": "2.1.0",
-    "io.extendreality.tilia.input.unityinputmanager": "2.0.2",
-    "io.extendreality.tilia.input.combinedactions.unity": "2.0.2",
+    "com.miragenet.mirage": "123.1.0",
     "com.unity.collab-proxy": "1.15.15",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.13",
@@ -22,6 +39,10 @@
     "com.unity.timeline": "1.6.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.7.6",
+    "com.veriorpies.parrelsync": "https://github.com/VeriorPies/ParrelSync.git?path=/ParrelSync",
+    "io.extendreality.tilia.input.combinedactions.unity": "2.0.2",
+    "io.extendreality.tilia.input.unityinputmanager": "2.0.2",
+    "io.extendreality.zinnia.unity": "2.1.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
