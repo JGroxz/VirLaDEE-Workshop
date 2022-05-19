@@ -5,7 +5,9 @@ using Random = UnityEngine.Random;
 
 public class PlayerColorSetter : NetworkBehaviour
 {
+    [SyncVar]
     public Color generatedColor;
+
     public float from = 0.3f;
     public float to = 0.8f;
 
@@ -27,19 +29,16 @@ public class PlayerColorSetter : NetworkBehaviour
         // generatedColor = GetRandomColor();
         if (IsLocalPlayer) RequestSetColor(generatedColor);
     }
-    
+
+    private void Update()
+    {
+        UpdateMaterialColor(generatedColor);
+    }
+
     [ServerRpc]
     private void RequestSetColor(Color color)
     {
-        // extra logic
-        AcceptSetColor(color);
-    }
-
-    [ClientRpc]
-    private void AcceptSetColor(Color color)
-    {
         generatedColor = color;
-        UpdateMaterialColor(generatedColor);
     }
 
     private void UpdateMaterialColor(Color color)
