@@ -28,6 +28,7 @@
     }
   ],
   "dependencies": {
+    "games.nosoysauce.reorderableunityevents": "1.1.0",
     "com.miragenet.discovery": "https://github.com/JGroxz/Discovery.git?path=/Assets/Discovery",
     "com.miragenet.mirage": "123.1.0",
     "com.unity.collab-proxy": "1.15.15",
