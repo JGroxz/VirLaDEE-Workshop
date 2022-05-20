@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 3365505264
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (11)
@@ -872,6 +876,7 @@ MonoBehaviour:
   uniqueAppIdentifier: 3617853286699710818
   serverBroadcastListenPort: 47777
   activeDiscoveryInterval: 3
+  networkManager: {fileID: 0}
 --- !u!1 &209671863
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,6 +2009,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 497548248
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (7)
@@ -2728,6 +2737,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 2389179182
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (13)
@@ -2794,6 +2807,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 3882091580
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (2)
@@ -2984,6 +3001,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 3905706956
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (5)
@@ -3619,6 +3640,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 2698456197
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (6)
@@ -4833,6 +4858,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 2799518536
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (4)
@@ -5386,6 +5415,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 3659855602
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (10)
@@ -5447,6 +5480,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 2476008457
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (3)
@@ -6307,7 +6344,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1370033561
 Transform:
   m_ObjectHideFlags: 0
@@ -6802,6 +6839,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 1808599118
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (12)
@@ -6868,6 +6909,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 1951979632
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (8)
@@ -8023,6 +8068,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 4199676747
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (1)
@@ -9417,6 +9466,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 2152916070
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin (9)
@@ -9614,6 +9667,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317298152}
     m_Modifications:
+    - target: {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
+      propertyPath: _sceneId
+      value: 442164722
+      objectReference: {fileID: 0}
     - target: {fileID: 8426251217148027352, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
       propertyPath: m_Name
       value: Coin
