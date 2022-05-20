@@ -7,6 +7,16 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.miragenet.discovery": {
+      "version": "https://github.com/JGroxz/Discovery.git?path=/Assets/Discovery",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.miragenet.mirage": "123.0.0",
+        "com.cysharp.unitask": "2.0.36"
+      },
+      "hash": "93c139e2e08ba4b665f04285cf39edd616b6744d"
+    },
     "com.miragenet.mirage": {
       "version": "123.1.0",
       "depth": 0,
