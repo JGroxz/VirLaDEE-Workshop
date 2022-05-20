@@ -13,6 +13,11 @@ public class PlayerColorSetter : NetworkBehaviour
 
     public MeshRenderer renderer;
 
+    private void Awake()
+    {
+        Identity.OnStartServer.AddListener(InitializeColor);
+    }
+
     public Color GetRandomColor()
     {
         return new Color
@@ -24,20 +29,14 @@ public class PlayerColorSetter : NetworkBehaviour
         };
     }
 
-    private void Start()
+    private void InitializeColor()
     {
-        // generatedColor = GetRandomColor();
-        if (IsLocalPlayer) RequestSetColor(generatedColor);
+        generatedColor = GetRandomColor();
     }
 
-    [ServerRpc]
-    private void RequestSetColor(Color color)
+    private void UpdateMaterialColor(Color _, Color newValue)
     {
-        generatedColor = color;
-    }
-
-    private void UpdateMaterialColor()
-    {
-        renderer.material.color = generatedColor;
+        generatedColor = newValue;
+        renderer.material.color = newValue;
     }
 }
