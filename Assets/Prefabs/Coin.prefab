@@ -9,12 +9,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8426251217148027356}
+  - component: {fileID: 4782207247314503426}
+  - component: {fileID: 6729119842848332298}
   - component: {fileID: 8426251217148027359}
   - component: {fileID: 8426251217148027358}
   - component: {fileID: 8426251217148027353}
   - component: {fileID: 8426251217148027357}
   - component: {fileID: 8426251217148027346}
   - component: {fileID: 2158219363345285059}
+  - component: {fileID: 5180855525209406075}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -37,6 +40,73 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &4782207247314503426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8426251217148027352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnSettings:
+    SendPosition: 1
+    SendRotation: 1
+    SendScale: 1
+  _sceneId: 0
+  ServerObjectManager: {fileID: 0}
+  ClientObjectManager: {fileID: 0}
+  _prefabHash: -825754228
+  _onStartServer:
+    _event:
+      m_PersistentCalls:
+        m_Calls: []
+  _onStartClient:
+    _event:
+      m_PersistentCalls:
+        m_Calls: []
+  _onStartLocalPlayer:
+    _event:
+      m_PersistentCalls:
+        m_Calls: []
+  _onAuthorityChanged:
+    _event:
+      m_PersistentCalls:
+        m_Calls: []
+  _onOwnerChanged:
+    _event:
+      m_PersistentCalls:
+        m_Calls: []
+  _onStopClient:
+    _event:
+      m_PersistentCalls:
+        m_Calls: []
+  _onStopServer:
+    _event:
+      m_PersistentCalls:
+        m_Calls: []
+  hasSpawned: 0
+--- !u!114 &6729119842848332298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8426251217148027352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f74aedd71d9a4f55b3ce499326d45fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  ClientAuthority: 0
+  LocalPositionSensitivity: 0.01
+  LocalRotationSensitivity: 0.01
+  LocalScaleSensitivity: 0.01
 --- !u!33 &8426251217148027359
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -143,3 +213,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 8426251217148027356}
   speed: 45
+--- !u!114 &5180855525209406075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8426251217148027352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b3602cf253ee743ae01fae9fb6d4e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  identity: {fileID: 4782207247314503426}
+  observedComponents:
+  - {fileID: 2158219363345285059}

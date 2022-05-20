@@ -1,9 +1,17 @@
+using System;
+using Mirage;
 using UnityEngine;
 
-public class CoinCollector : MonoBehaviour
+public class CoinCollector : NetworkBehaviour
 {
     public int collectedCoinsCount = 0;
+    public NetworkManager networkManager;
     
+    private void Start()
+    {
+        networkManager = FindObjectOfType<NetworkManager>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Collided with " + other.gameObject.name);
@@ -11,9 +19,9 @@ public class CoinCollector : MonoBehaviour
         CoinTag coinTag = other.gameObject.GetComponent<CoinTag>();
         bool isCoin = (coinTag != null);
 
-        if (isCoin)
+        if (isCoin && IsServer)
         {
-            other.gameObject.SetActive(false);
+            networkManager.ServerObjectManager.Destroy(other.gameObject);
             collectedCoinsCount++;
         }
     }

@@ -1,15 +1,15 @@
+using System;
 using System.Collections.Generic;
 using Mirage;
 using UnityEngine;
 
-public class DisableComponentsIfNotLocal : MonoBehaviour
+public class DisableComponentsIfNotLocal : NetworkBehaviour
 {
-    public NetworkIdentity identity;
     public List<MonoBehaviour> observedComponents = new List<MonoBehaviour>();
-
+    
     private void Update()
     {
-        bool shouldBeEnabled = identity.IsLocalPlayer;
+        bool shouldBeEnabled = Identity.IsLocalPlayer;
 
         foreach (var component in observedComponents)
         {
