@@ -766,6 +766,7 @@ MonoBehaviour:
   uniqueAppIdentifier: 3617853286699710818
   serverBroadcastListenPort: 47777
   activeDiscoveryInterval: 3
+  networkManager: {fileID: 1972777374}
 --- !u!1 &209671863
 GameObject:
   m_ObjectHideFlags: 0
@@ -4622,6 +4623,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 203882858}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: StartAdvertisingServer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1364437842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5015,13 +5028,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 203882856}
+      - m_Target: {fileID: 203882858}
         m_TargetAssemblyTypeName: 
-        m_MethodName: 
+        m_MethodName: StartAdvertisingServer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6585,7 +6598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Address: localhost
-  Port: 7777
+  Port: 7778
   SocketLib: 0
   BufferSize: 262144
 --- !u!114 &1972777368
