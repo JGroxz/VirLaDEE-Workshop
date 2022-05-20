@@ -728,7 +728,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 203882857}
-  - component: {fileID: 203882859}
   - component: {fileID: 203882858}
   m_Layer: 0
   m_Name: Network Discovery
@@ -761,42 +760,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 203882856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb2c8cf28104f48f5b363d5848e2137f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lanDiscovery: {fileID: 203882859}
-  networkManager: {fileID: 1972777374}
---- !u!114 &203882859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 203882856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adb8e2103d9194c42a92e7230b6660b2, type: 3}
+  m_Script: {fileID: 11500000, guid: dd7c0b278a356944c8198b472d746768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   uniqueAppIdentifier: 3617853286699710818
   serverBroadcastListenPort: 47777
   activeDiscoveryInterval: 3
-  transport: {fileID: 1972777367}
-  OnServerFound:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 203882858}
-        m_TargetAssemblyTypeName: Mirage.Discovery.LanDiscoveryHud, Mirage.Discovery.Runtime
-        m_MethodName: OnDiscoveredServer
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &209671863
 GameObject:
   m_ObjectHideFlags: 0
@@ -5046,6 +5015,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 203882856}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1412233123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5853,9 +5834,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1399520219}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: StartClientButtonHandler
+      - m_Target: {fileID: 203882858}
+        m_TargetAssemblyTypeName: Mirage.Discovery.LanDiscoveryBase`2[[DiscoveryRequest,
+          Assembly-CSharp
+        m_MethodName: StartDiscovery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
