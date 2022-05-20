@@ -2142,6 +2142,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b115d8e78d60dd47815624eb8660dd8, type: 3}
+--- !u!4 &834280298 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8358984953733207333, guid: 4966324abb86a9b45913a8cd80762130, type: 3}
+  m_PrefabInstance: {fileID: 877129148}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &837298046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4848,6 +4853,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2918023234800039680, guid: e1f75b9b0f2038c43819c40c4d53c890, type: 3}
+      propertyPath: startPositions.Array.data[0]
+      value: 
+      objectReference: {fileID: 834280298}
     - target: {fileID: 3577035011973801609, guid: e1f75b9b0f2038c43819c40c4d53c890, type: 3}
       propertyPath: _sceneId
       value: 4195131909
