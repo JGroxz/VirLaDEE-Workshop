@@ -275,7 +275,13 @@ MonoBehaviour:
   Client: {fileID: 2918023234800039684}
   NetworkSceneManager: {fileID: 2918023234800039683}
   spawnPrefabs:
+  - {fileID: 376684022217905921, guid: 8bca403ca639f4747970a59e8873af18, type: 3}
+  - {fileID: 373274902329576415, guid: ed7306251cb2f394e931dbfbb7dee85e, type: 3}
+  - {fileID: 4782207247314503426, guid: d662b7d9bf42e71489617f72cbd3f319, type: 3}
   - {fileID: 376684022217905921, guid: 799001d8b76eeeb4fbeca7609df82fc9, type: 3}
+  - {fileID: 8358984953733207339, guid: 4966324abb86a9b45913a8cd80762130, type: 3}
+  - {fileID: 1713098107664522388, guid: b7dd46dbf38c643f09e206f9fa4be008, type: 3}
+  - {fileID: 114118589361100106, guid: 6f43bf5488a7443d19ab2a83c6b91f35, type: 3}
 --- !u!114 &2918023234800039680
 MonoBehaviour:
   m_ObjectHideFlags: 0
