@@ -28,7 +28,7 @@
     }
   ],
   "dependencies": {
-    "com.miragenet.discovery": "file:C:/Users/JGroxz/Documents/Unity Projects/[Packages]/Mirage Discovery/Assets/Discovery",
+    "com.miragenet.discovery": "https://github.com/JGroxz/Discovery.git?path=/Assets/Discovery#develop",
     "com.miragenet.mirage": "123.1.0",
     "com.unity.collab-proxy": "1.15.15",
     "com.unity.feature.development": "1.0.1",

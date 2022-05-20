@@ -8,13 +8,14 @@
       "url": "https://package.openupm.com"
     },
     "com.miragenet.discovery": {
-      "version": "file:C:/Users/JGroxz/Documents/Unity Projects/[Packages]/Mirage Discovery/Assets/Discovery",
+      "version": "https://github.com/JGroxz/Discovery.git?path=/Assets/Discovery#develop",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.miragenet.mirage": "123.0.0",
         "com.cysharp.unitask": "2.0.36"
-      }
+      },
+      "hash": "bc41c0be22d91828fd5e0d8bc0ba817fb1200207"
     },
     "com.miragenet.mirage": {
       "version": "123.1.0",
